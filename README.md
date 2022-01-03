@@ -1,10 +1,11 @@
 # Load Data
-'''
+```
 import pickle
 f = open(filename, "rb")
 data = pickle.load(f)
-'''
+```
 # Data Structure
+```
 data--key 		: number of note
     |-value		: A python dict include all the information in the note.
 		|-num       : integer, showing the number of note.
@@ -17,3 +18,4 @@ data--key 		: number of note
    		|-harmonics : 2d float list of the amplitude ratio between harmonics.
          	|-first dimension  : include 10 lists, each list represents to a harmonics in order.
          	|-second dimension : 1d float list, contains a amplitude curve describing the variety of amplitude in time domain.
+```
