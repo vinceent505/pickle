@@ -14,6 +14,7 @@ data--key 		       	   : number of note
    	|-end       		   : float, showing the end time(s).
    	|-name         		   : string, showing the name of note.
    	|-envelope		   : 1d float list of envelope(sample rate=fs).
+	|-adsr			   : smoothed curve of envelope.
    	|-pitch   		   : 1d float list of pitch contour.
    	|-harmonics 		   : 2d float list of the amplitude ratio between harmonics.
         	|-first dimension  : include 10 lists, each list represents to a harmonics in order.
