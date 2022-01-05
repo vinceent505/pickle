@@ -15,8 +15,8 @@ data--key 		       	   : number of note
    	|-"name"         	   : string, showing the name of note.
    	|-"envelope"		   : 1d float list of envelope(sample rate=fs).
 	|-"adsr"		   : 2d float list includes 2 list of coordinate describing smoothed curve of envelope.
-		|-first list	   : y axis.
-		|-second list	   : x axis.
+		|-first list	   : x axis.
+		|-second list	   : y axis.
    	|-"pitch"   		   : 1d float list of pitch contour.
    	|-"harmonics" 		   : 2d float list of the amplitude ratio between harmonics.
         	|-first dimension  : include 10 lists, each list represents to a harmonics in order.
